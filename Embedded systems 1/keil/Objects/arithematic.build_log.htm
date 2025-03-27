@@ -1,0 +1,115 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.38.0.0
+Copyright (C) 2022 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Telapolu Mani Sai Lokesh, HP Inc., LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.24.1
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 5 (build 528)
+Assembler:       Armasm.exe V5.06 update 5 (build 528)
+Linker/Locator:  ArmLink.exe V5.06 update 5 (build 528)
+Library Manager: ArmAr.exe V5.06 update 5 (build 528)
+Hex Converter:   FromElf.exe V5.06 update 5 (build 528)
+CPU DLL:         SARM.DLL V5.24.1
+Dialog DLL:      DARMP.DLL V1.53.0.0
+Target DLL:      UL2ARM.DLL V1.74.10.0
+Dialog DLL:      TARMP.DLL V1.53.0.0
+ 
+<h2>Project:</h2>
+C:\Users\mslok\OneDrive\Desktop\Embedded systems\keil\arithematic.uvproj
+Project File Date:  11/15/2024
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 5 (build 528)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'Target 1'
+compiling arithematic.c...
+arithematic.c(2): error:  #40: expected an identifier
+  ;*   add.a	 DO NOT INCLUDE STARTUP.S IN YOUR PROJECT							  
+arithematic.c(2): warning:  #77-D: this declaration has no storage class or type specifier
+  ;*   add.a	 DO NOT INCLUDE STARTUP.S IN YOUR PROJECT							  
+arithematic.c(2): error:  #65: expected a ";"
+  ;*   add.a	 DO NOT INCLUDE STARTUP.S IN YOUR PROJECT							  
+arithematic.c(3): error:  #40: expected an identifier
+  ;************************************************************************/
+arithematic.c(4): warning:  #77-D: this declaration has no storage class or type specifier
+          AREA     ARMex, CODE, READONLY
+arithematic.c(4): warning:  #77-D: this declaration has no storage class or type specifier
+          AREA     ARMex, CODE, READONLY
+arithematic.c(5): error:  #20: identifier "Name" is undefined
+                                  ; Name this block of code ARMex
+arithematic.c(5): error:  #65: expected a ";"
+                                  ; Name this block of code ARMex
+arithematic.c(6): error:  #20: identifier "Mark" is undefined
+          ENTRY                   ; Mark first instruction to execute
+arithematic.c(6): error:  #65: expected a ";"
+          ENTRY                   ; Mark first instruction to execute
+arithematic.c(13): warning:  #12-D: parsing restarts here after previous syntax error
+  	;MOV R1, #0x33  ;R1 = 33   
+arithematic.c(13): error:  #20: identifier "MOV" is undefined
+  	;MOV R1, #0x33  ;R1 = 33   
+arithematic.c(13): error:  #10: "#" not expected here
+  	;MOV R1, #0x33  ;R1 = 33   
+arithematic.c(13): error:  #40: expected an identifier
+  	;MOV R1, #0x33  ;R1 = 33   
+arithematic.c(13): warning:  #77-D: this declaration has no storage class or type specifier
+  	;MOV R1, #0x33  ;R1 = 33   
+arithematic.c(14): error:  #20: identifier "MOV" is undefined
+  	;MOV R2, #0x11  ;R2 = 11   
+arithematic.c(14): error:  #10: "#" not expected here
+  	;MOV R2, #0x11  ;R2 = 11   
+arithematic.c(14): error:  #40: expected an identifier
+  	;MOV R2, #0x11  ;R2 = 11   
+arithematic.c(14): warning:  #77-D: this declaration has no storage class or type specifier
+  	;MOV R2, #0x11  ;R2 = 11   
+arithematic.c(15): error:  #20: identifier "ADD" is undefined
+  	;ADD R3, R1, R2  ;/* R3 = R1 + R2 */
+arithematic.c(16): error:  #20: identifier "HERE" is undefined
+  HERE
+arithematic.c(17): error:  #65: expected a ";"
+  	B HERE 	;/* End loop */
+arithematic.c(19): warning:  #77-D: this declaration has no storage class or type specifier
+      END ;/* End of file */
+arithematic.c(26): error:  #20: identifier "AREA" is undefined
+          AREA     ARMex, CODE, READONLY
+arithematic.c(27): error:  #20: identifier "Name" is undefined
+                                  ; Name this block of code ARMex
+arithematic.c(27): error:  #65: expected a ";"
+                                  ; Name this block of code ARMex
+arithematic.c(28): error:  #20: identifier "Mark" is undefined
+          ENTRY                   ; Mark first instruction to execute
+arithematic.c(28): error:  #65: expected a ";"
+          ENTRY                   ; Mark first instruction to execute
+arithematic.c(31): warning:  #12-D: parsing restarts here after previous syntax error
+  ;/* Write your assembly language code starting after this line. */
+arithematic.c(32): error:  #20: identifier "MOV" is undefined
+  	MOV R1, #0x44     
+arithematic.c(32): error:  #10: "#" not expected here
+  	MOV R1, #0x44     
+arithematic.c(32): error:  #40: expected an identifier
+  	MOV R1, #0x44     
+arithematic.c(33): error:  #10: "#" not expected here
+  	MOV R2, #0x11     
+arithematic.c(33): error:  #40: expected an identifier
+  	MOV R2, #0x11     
+arithematic.c(36): error:  #20: identifier "HERE" is undefined
+  HERE
+arithematic.c(37): error:  #65: expected a ";"
+  	B HERE 	;/* End loop */
+arithematic.c(39): warning:  #77-D: this declaration has no storage class or type specifier
+  	END ;/* End of file */
+arithematic.c(45): error:  #20: identifier "AREA" is undefined
+          AREA     ARMex, CODE, READONLY
+arithematic.c(46): error:  #20: identifier "Name" is undefined
+                                  ; Name this block of code ARMex
+arithematic.c: 9 warnings, 30 errors
+".\Objects\arithematic.axf" - 30 Error(s), 9 Warning(s).
+Target not created.
+Build Time Elapsed:  00:00:00
+</pre>
+</body>
+</html>
